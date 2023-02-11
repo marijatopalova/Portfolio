@@ -32,8 +32,6 @@
 	$body .= "</tbody></table>";
 	$body .= "</body></html>";
 
-	header('Access-Control-Allow-Methods: GET, POST');
-
     $send = mail($to, $subject, $body, $headers);
 
 ?>
